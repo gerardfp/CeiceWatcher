@@ -56,7 +56,7 @@ public class ComService extends Service {
         }
         ).start();
 
-        startForeground(NOTIF_ID, getNotification("Checking CEICE...", R.drawable.coffee));
+        startForeground(NOTIF_ID, getNotification("Cap perra >:-(", R.drawable.coffee));
 
         return super.onStartCommand(intent, flags, startId);
     }
